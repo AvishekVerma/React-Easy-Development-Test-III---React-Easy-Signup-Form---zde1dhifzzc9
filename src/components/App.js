@@ -1,14 +1,8 @@
-import React, {setState } from 'react'
-//import { signUpFormValidation } from './utils/validation.js'
+import React from 'react'
 
 
 
 const App = () => {
-//   const [state, setState] = useState({
-//     'name':'',
-//   'email':'',
-//     'password':''
-//   })
   
   return (
     <div>
@@ -20,7 +14,7 @@ const App = () => {
       <input id="password" type="text" /><br></br>
       <label>consent</label>
       <input id="consent" type="checkbox" /><br></br>
-      <button type='submit' onClick={signUpFormValidation} >Signup</button>
+      <button type='submit'>Signup</button>
     </div>
   )
 }
