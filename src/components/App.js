@@ -1,14 +1,14 @@
 import React, {setState } from 'react'
-import { signUpFormValidation } from './utils/validation.js'
+//import { signUpFormValidation } from './utils/validation.js'
 
 
 
 const App = () => {
-  const [state, setState] = useState({
-    'name':'',
-  'email':'',
-    'password':''
-  })
+//   const [state, setState] = useState({
+//     'name':'',
+//   'email':'',
+//     'password':''
+//   })
   
   return (
     <div>
